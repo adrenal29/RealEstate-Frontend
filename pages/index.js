@@ -44,7 +44,7 @@ function Home({ propertiesForSale, propertiesForRent }) {
     <Box>
       <Banner
         purpose="SELL A HOME"
-        title1="Rental Homes for"
+        title1="Sell Homes in decentralized way"
         title2="Everyone"
         desc1="Explore Apartments, Villas, Homes"
         desc2="and more"
