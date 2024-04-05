@@ -48,7 +48,7 @@ function Home({ propertiesForSale, propertiesForRent }) {
         title2="Everyone"
         desc1="Explore Apartments, Villas, Homes"
         desc2="and more"
-        buttonText="Explore Renting"
+        buttonText="Explore our buildings"
         linkName="/search?purpose=for-rent"
         imageurl="https://bayut-production.s3.eu-central-1.amazonaws.com/image/110993385/6a070e8e1bae4f7d8c1429bc303d2008"
       />
