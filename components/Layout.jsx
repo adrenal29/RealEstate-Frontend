@@ -11,15 +11,18 @@ const Layout = ({ children }) => {
       <Head>
         <title>Real Estate App</title>
       </Head>
-      <Box maxWidth="1280px" m="auto">
-        <header>
-          <Navbar />
-        </header>
-        <main>{children}</main>
-        <footer>
-          <Footer />
-        </footer>
-      </Box>
+      {/* <div style={{ background: "black", color: "white" }}> */}
+        <Box bg={{ base: "white", md: "white", lg: "black" }} color={{ base: "black", md: "black", lg: "black"}}>
+          <header>
+            <Navbar />
+          </header>
+          <main>{children}</main>
+          <footer>
+            <Footer />
+          </footer>
+        </Box>
+      {/* </div> */}
+
     </>
   );
 };
