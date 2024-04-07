@@ -70,7 +70,7 @@ const Navbar = () => {
           </Link>
         </Box>
         <Box fontSize="1xl" color="gray.400" fontWeight="bold" marginEnd="30px" marginTop="5px">
-          <Link href="/SellProperty" paddingLeft="2">
+          <Link href="/SellProperty/Sell" paddingLeft="2">
             Sell 
           </Link>
         </Box>
