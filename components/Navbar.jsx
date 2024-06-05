@@ -79,6 +79,11 @@ const Navbar = () => {
             Buy
           </Link>
         </Box>
+        <Box fontSize="1xl" color="gray.400" fontWeight="bold" marginEnd="80px" marginTop="5px">
+          <a href="https://sepolia.etherscan.io/address/0x10BD6012Fb68b677773F819526cc8cF253d196fd" paddingLeft="2" target="_blank">
+            Check blockchain network
+          </a>
+        </Box>
       <Box>
         <Menu>
           <MenuButton
